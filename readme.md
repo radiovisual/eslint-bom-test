@@ -1,8 +1,8 @@
 # eslint-bom-test
 
-This module simply for diagnostic purposes to help demonstrates the problems listed in the following issues:
+This module is simply for diagnostic purposes to help demonstrates the problems listed in the following issues:
 
-ESLint Issue [#5766](https://github.com/eslint/eslint/issues/5766)
+ESLint Issue [#5766](https://github.com/eslint/eslint/issues/5766)  
 XO Issue [#96](https://github.com/sindresorhus/xo/issues/95)
 
 ## Install 
@@ -15,15 +15,22 @@ $ npm install
 
 ## Recreate the Problem
 
-1. The following command yields **no results:**
+The following command yields **no results:**
 ```
 $ npm run test
 ```
 
-2. The following command yields **3 errors:**
+However, the following command yields **3 errors:**
 ```
 $ xo
 ```
+
+<pre>
+/Users/michael/gitprojects/eslint-bom-test/utf8-bom.js
+  1:1   error  Irregular whitespace not allowed  no-irregular-whitespace
+  1:2   error  Strings must use singlequote      quotes
+  3:13  error  Strings must use singlequote      quotes
+</pre>
 
 ## The Problem?
 
