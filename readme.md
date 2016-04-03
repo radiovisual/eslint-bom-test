@@ -8,6 +8,7 @@ XO Issue [#96](https://github.com/sindresorhus/xo/issues/95)
 ## Install 
 
 ```
+$ npm install --global xo
 $ git clone https://github.com/radiovisual/eslint-bom-test.git
 $ cd eslint-bom-test
 $ npm install
