@@ -4,8 +4,7 @@
   "description": "Demonstrate the ESLint/XO BOM Issue (#5766)",
   "main": "index.js",
   "scripts": {
-    "test": "xo",
-    "eslint-test": "eslint utf8-bom.js --no-eslintrc --rule no-irregular-whitespace:2"
+    "test": "xo"
   },
   "keywords": [
     "test",
