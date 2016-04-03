@@ -16,12 +16,12 @@ $ npm install
 
 ## Recreate the Problem
 
-The following command yields **no results:**
+The following command (which runs `xo` via npm) yields **no results:**
 ```
 $ npm run test
 ```
 
-However, the following command yields **3 errors:**
+However, the following command (which runs `xo` on the command line) yields **3 errors:**
 ```
 $ xo
 ```
@@ -35,7 +35,7 @@ $ xo
 
 ## The Problem?
 
-The problem is that both commands `$ npm run test` and `$ xo` should return the same results, **and** XO should be ignoring 
+The problem is that both commands `$ npm run test` and `$ xo` should return the same results, **AND** XO should be ignoring 
  the Unicode BOM, because [ESLint strips the Unicode BOM from files before linting](https://github.com/eslint/eslint/issues/4878).
 
 ## Trying Straight ESLint
