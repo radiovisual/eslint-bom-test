@@ -2,8 +2,10 @@
 
 This module is simply for diagnostic purposes to help demonstrates the problems listed in the following issues:
 
-ESLint Issue [#5766](https://github.com/eslint/eslint/issues/5766)  
-XO Issue [#96](https://github.com/sindresorhus/xo/issues/95)
+ESLint Issue [#5766](https://github.com/eslint/eslint/issues/5766) [CLOSED]  
+XO Issue [#96](https://github.com/sindresorhus/xo/issues/95) [CLOSED]  
+
+**UPDATE:** This issue was solved by simply [updating to the latest release of XO](https://github.com/sindresorhus/xo/issues/96#issuecomment-216949546). :bowtie: :+1:
 
 ## Install 
 
